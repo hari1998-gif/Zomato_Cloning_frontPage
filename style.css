@@ -1,0 +1,638 @@
+
+.testDiv {
+    
+    height: 160px;
+    width: 364px;
+    box-shadow: 0 0 7px;
+    margin: 10px;
+
+}
+
+.testDiv .testImage {
+    display: inline-block;
+}
+
+.testDiv img {
+    height: 160px;
+    width: 160px;
+}
+
+.testImage {
+    height: 160px;
+    width: 149px;
+    text-align: left;
+    padding-bottom: 3px;
+    position: relative;
+    top: -46px;
+    left: 40px;
+    
+}
+
+div {
+    box-sizing: border-box !important;
+}
+
+.titleImg {
+    background: transparent url(./images/Title.png) no-repeat !important;
+    width: 1366px;
+    height: 480px;
+    position: relative;
+}
+
+#wholePageContainer {
+    margin: auto;
+    width: 1366px;
+}
+
+.headings {
+    padding-left: 113px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #192f60;
+}
+
+.container {
+    padding-left: 113px;
+    display: grid;
+    grid-template-areas: "testDiv1 testDiv2 testDiv3"
+                         "testDiv4 testDiv5 testDiv6";
+    width: 1140px;                     
+}
+.testDiv1{
+    grid-area: testDiv1;
+}
+.testDiv2{
+    grid-area: testDiv2;
+}
+.testDiv3{
+    grid-area: testDiv3;
+}
+.testDiv4{
+    grid-area: testDiv4;
+}
+.testDiv5{
+    grid-area: testDiv5;
+}
+.testDiv6{
+    grid-area: testDiv6;
+}
+.loginAccount {
+    background-color: transparent;
+    color: white;
+    position: absolute;
+    top: 29px;
+    left: 1066px;
+}
+
+.loginSpan {
+    padding-top: 12px;
+    padding-right: 23px;
+    padding-bottom: 11px;
+    font-size: medium;
+}
+
+.createSpan {
+    padding: 12px 14px 11px 15px;
+    border: solid 1px white;
+    font-size: medium;
+}
+
+.logo {
+    height: 120px;
+    width: 120px;
+    background-color: white;
+    text-align: center;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 50%;
+    position: absolute;
+    top: 81px;
+    left: 610px;
+    /*position: relative;
+    top: 30%;
+    left: 50%;*/
+    color: red;
+}
+
+.logoText {
+    position: relative;
+    top: 20px;
+    font-size: 70px;
+
+}
+
+.inlineImgText {
+    position: relative;
+    color: white;
+    font-size: 36px;
+    top: 250px;
+    left: 356px;
+    /*font: normal normal 600 36px/55px Poppins !important;*/
+}
+
+.location {
+    position: relative;
+    width: 200px;
+    height: 50px;
+    top: 279px;
+    left: 298px;
+    justify-content: center;
+    padding-left: 23px;
+}
+
+.searchRestaurent {
+    position: relative;
+    width: 457px;
+    height: 50px;
+    top: 279px;
+    left: 320px;
+    justify-content: center;
+    padding-left: 23px;
+}
+@media screen and (max-width:1000px){
+    .titleImg {
+        background: transparent url(./images/Title.png) no-repeat !important;
+        width: 787px;
+        height: 277px;
+        position: relative;
+    }
+    .headings {
+        padding-left: 30px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: #192f60;
+    }
+    .loginAccount {
+        background-color: transparent;
+        color: white;
+        position: absolute;
+        top: 17px;
+        left: 614px;
+    }
+    .loginSpan {
+        padding-top: 7px;
+        padding-right: 13px;
+        padding-bottom: 7px;
+        font-size: small;
+    }
+    
+    .createSpan {
+        padding: 7px 8px 7px 9px;
+        border: solid 1px white;
+        font-size: small;
+    }
+    
+    .logo {
+        height: 69px;
+        width: 69px;
+        background-color: white;
+        text-align: center;
+        font-size: large;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 50%;
+        position: absolute;
+        top: 47px;
+        left: 352px;
+        /*position: relative;
+        top: 30%;
+        left: 50%;*/
+        color: red;
+    }
+    
+    .logoText {
+        position: relative;
+        top: 12px;
+        font-size: 40px;
+    
+    }
+    
+    .inlineImgText {
+        position: relative;
+        color: white;
+        font-size: 21px;
+        top: 144px;
+        left: 205px;
+        /*font: normal normal 600 36px/55px Poppins !important;*/
+    }
+    
+    .location {
+        position: relative;
+        width: 135px;
+        height: 29px;
+        top: 161px;
+        left: 163px;
+        justify-content: center;
+        padding-left: 13px;
+    }
+    
+    .searchRestaurent {
+        position: relative;
+        width: 263px;
+        height: 29px;
+        top: 161px;
+        left: 172px;
+        justify-content: center;
+        padding-left: 13px;
+    }
+}
+
+@media screen and (max-width:570px){
+    .titleImg {
+        background: transparent url(./images/Title.png) no-repeat !important;
+        width: 500px;
+        height: 300px;
+        position: relative;
+    }
+    .headings {
+        padding-left: 30px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: #192f60;
+    }
+    .loginAccount {
+        background-color: transparent;
+        color: white;
+        position: absolute;
+        top: 17px;
+        left: 28px;
+    }
+    .loginSpan {
+        padding-top: 7px;
+        padding-right: 13px;
+        padding-bottom: 7px;
+        font-size: small;
+    }
+    
+    .createSpan {
+        padding: 7px 8px 7px 9px;
+        border: solid 1px white;
+        font-size: small;
+    }
+    
+    .logo {
+        height: 69px;
+        width: 69px;
+        background-color: white;
+        text-align: center;
+        font-size: large;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 50%;
+        position: absolute;
+        top: 60px;
+        left: 213px;
+        /*position: relative;
+        top: 30%;
+        left: 50%;*/
+        color: red;
+    }
+    
+    .logoText {
+        position: relative;
+        top: 12px;
+        font-size: 40px;
+    
+    }
+    
+    .inlineImgText {
+        position: relative;
+        color: white;
+        font-size: 21px;
+        top: 144px;
+        left: 79px;
+        /*font: normal normal 600 36px/55px Poppins !important;*/
+    }
+    
+    .location {
+        position: relative;
+        width: 135px;
+        height: 29px;
+        top: 161px;
+        left: 185px;
+        justify-content: center;
+        padding-left: 13px;
+    }
+    
+    .searchRestaurent {
+        position: relative;
+        width: 135px;
+        height: 29px;
+        top: 210px;
+        left: 27px;
+        justify-content: center;
+        padding-left: 13px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .container {
+        display: grid;
+        padding-left: 0px;
+        margin: 0px;
+        grid-template-areas: "testDiv1 testDiv2" 
+                             "testDiv3 testDiv4"
+                             "testDiv5 testDiv6";
+        width: 787px;                    
+    }
+    .testDiv1{
+        grid-area: testDiv1;
+    }
+    .testDiv2{
+        grid-area: testDiv2;
+    }
+    .testDiv3{
+        grid-area: testDiv3;
+    }
+    .testDiv4{
+        grid-area: testDiv4;
+    }
+    .testDiv5{
+        grid-area: testDiv5;
+    }
+    .testDiv6{
+        grid-area: testDiv6;
+    }
+    
+}
+@media screen and (max-width:570px) {
+    .container {
+        display: grid;
+        padding-left: 45px;
+        grid-template-areas: "testDiv1" 
+                             "testDiv2" 
+                             "testDiv3" 
+                             "testDiv4"
+                             "testDiv5" 
+                             "testDiv6";
+                            
+    }
+    .testDiv1{
+        grid-area: testDiv1;
+    }
+    .testDiv2{
+        grid-area: testDiv2;
+    }
+    .testDiv3{
+        grid-area: testDiv3;
+    }
+    .testDiv4{
+        grid-area: testDiv4;
+    }
+    .testDiv5{
+        grid-area: testDiv5;
+    }
+    .testDiv6{
+        grid-area: testDiv6;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.titleImg{
+    background: transparent url(./images/Title.png) no-repeat !important;
+    width: 1366px;
+    height: 480px;
+    
+}
+#wholePageContainer{
+    margin: auto;
+    width: 1366px;
+}
+.headings{
+    padding-left: 113px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #192f60;
+}
+.pageContainer1{
+    padding-left: 113px;
+    padding-top: 10px;
+}
+.pageContainer2{
+    padding-left: 113px;
+   
+}
+/*.inlineText{
+    display: inline-block;
+    height: 160px;
+    width: 200px;
+}
+
+img{
+    height: 160px;
+    width: 160px;   
+}
+.inlineImage{
+    height: 160px;
+    width: 360px;
+    display: inline-block;
+}
+.inlineText{
+    text-align: center;
+    float: top;
+}
+.breakfast{
+    /*border: solid 1px black;
+    margin: 5px;
+    padding: 1px;
+    box-shadow: 0 0 20px #00000080;
+    display: inline-block;
+}
+div{
+    box-sizing: content-box !important;
+}
+.loginAccount{
+    background-color: transparent;
+    color: white;
+    position: relative;
+    top: 29px;
+    right: -1015px;
+}
+.loginSpan{
+    padding-top: 12px;
+    padding-right: 23px;
+    padding-bottom: 11px;
+    font-size: medium;
+}
+.createSpan{
+    padding: 12px 14px 11px 15px;
+    border: solid 1px white;
+    font-size: medium;
+}
+.logo{
+    height: 147px;
+    width: 147px;
+    background-color: white;
+    text-align: center;
+    font-size:xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 50%;
+    position: relative;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: red;
+}
+.logoText{
+    position: relative;
+    top: 38%;
+     
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.titleImg{
+    background: transparent url(./images/Title.png) no-repeat !important;
+    width: 1366px;
+    height: 480px;
+    
+}
+#wholePageContainer{
+    width: 1366px;
+    text-align: left;
+    margin: auto;
+}
+.headings{
+    padding: 10px;
+}
+.firstStage{
+    display: inline-block;
+}
+.inlineImages{
+    border: solid 1px black;
+    width: 360px;
+    height: 160px;
+    display: inline-block;
+}
+.information{
+    position: relative;
+    top: -4px;
+    right: 1px;
+}
+.texting{
+    display: inline-block;
+}
+#breakfast {
+    display: inline-block;
+    height: 160px;
+    width: 200px;
+}
+*/
